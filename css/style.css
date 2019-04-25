@@ -382,14 +382,14 @@ body {
   @media only screen and (max-width: 56.25em) {
     .cta {
       padding: 2.5rem 0; } }
-  @media only screen and (max-width: 37.5em) {
-    .cta {
-      padding: 1.5rem 0; } }
   .cta__book-now {
     text-transform: uppercase;
     font-size: 2rem;
     margin-bottom: 2.5rem;
     font-weight: 300; }
+    @media only screen and (max-width: 37.5em) {
+      .cta__book-now {
+        font-size: 1.5rem; } }
 
 .btn {
   text-transform: uppercase;
